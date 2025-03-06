@@ -1,9 +1,11 @@
 package tests;
 
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.StudentRegistrationPage;
 import utils.TestDataFaker;
 
+@Tag("demoqa")
 public class PracticeFormTests extends TestBase {
 
     private final StudentRegistrationPage studentRegistrationPage = new StudentRegistrationPage();
