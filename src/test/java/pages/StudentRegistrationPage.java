@@ -43,7 +43,6 @@ public class StudentRegistrationPage {
     public StudentRegistrationPage disableBanners (){
         executeJavaScript("$('footer').remove()");
         executeJavaScript("$('#fixedban').remove()");
-        //executeJavaScript("$('#Ad.Plus-970х250-2').remove()");
         return this;
     }
 
